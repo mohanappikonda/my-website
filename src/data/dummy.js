@@ -34,6 +34,23 @@ export const opportunities = [
     color: "#7c3aed",
     status: "Author 2 & 3 Open",
   },
+  {
+    id: 3,
+    title: "M.Tech Major Projects (CSE/EEE/ECE)",
+    type: "Student Project",
+    domain: "Multidisciplinary (AI/PE/Quantum)",
+    description: "Guidance available for final year M.Tech projects in Power Electronics, AI/ML applications, and Quantum Computing. Students will receive mentorship on high-end simulations (MATLAB/Simulink/Qiskit) and manuscript preparation for potential publications.",
+    skills: ["MATLAB", "Python", "Problem Solving", "Domain Interest"],
+    funding: "Academic Project",
+    target: "Successful Project Completion & Publication",
+    timeline: "6-9 Months",
+    postedBy: "Dr. Appikonda Mohan Durga Kumar",
+    institution: "Swarnandhra College of Engineering (SCET)",
+    avatar: "MK",
+    image: "/profile_pic.png",
+    color: "#059669",
+    status: "Accepting Applications",
+  },
 ];
 
 // ─── SERVICES / PUBLICATIONS ─────────────────────────────────────────────────
