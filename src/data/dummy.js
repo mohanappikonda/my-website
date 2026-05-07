@@ -51,6 +51,23 @@ export const opportunities = [
     color: "#059669",
     status: "Accepting Applications",
   },
+  {
+    id: 4,
+    title: "B.Tech Major Projects (CSE/EEE/ECE)",
+    type: "Student Project",
+    domain: "Multidisciplinary (AI/PE/IoT)",
+    description: "Accepting final year B.Tech students for major projects in Power Electronics, Embedded Systems, and AI. Projects focus on practical simulation and hardware-software integration. Complete guidance from conceptualization to project documentation provided.",
+    skills: ["MATLAB/Simulink", "Arduino/Python", "Curiosity", "Basic Electronics"],
+    funding: "Academic Project",
+    target: "Successful Project Delivery",
+    timeline: "4-6 Months",
+    postedBy: "Dr. Appikonda Mohan Durga Kumar",
+    institution: "Swarnandhra College of Engineering (SCET)",
+    avatar: "MK",
+    image: "/profile_pic.png",
+    color: "#0891b2",
+    status: "Open for Batch Selection",
+  },
 ];
 
 // ─── SERVICES / PUBLICATIONS ─────────────────────────────────────────────────
