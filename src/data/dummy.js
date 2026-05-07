@@ -17,6 +17,23 @@ export const opportunities = [
     color: "#4f46e5",
     status: "Open",
   },
+  {
+    id: 2,
+    title: "Scopus Indexed Publication on Quantum QAOA Algorithm",
+    type: "Collaboration",
+    domain: "Quantum Computing / Algorithms",
+    description: "Seeking dedicated researchers for a high-impact Scopus indexed journal publication. The research focuses on optimization using Quantum Approximate Optimization Algorithm (QAOA). Author 2 and Author 3 positions are currently available for those who can contribute to technical writing and simulation analysis.",
+    skills: ["Quantum Computing", "QAOA", "Qiskit/Python", "Technical Writing"],
+    funding: "Self-Funded / Collaborative",
+    target: "Scopus/Q1 Journal Publication",
+    timeline: "4-6 Months",
+    postedBy: "Dr. Appikonda Mohan Durga Kumar",
+    institution: "Swarnandhra College of Engineering (SCET)",
+    avatar: "MK",
+    image: "/profile_pic.png",
+    color: "#7c3aed",
+    status: "Author 2 & 3 Open",
+  },
 ];
 
 // ─── SERVICES / PUBLICATIONS ─────────────────────────────────────────────────
