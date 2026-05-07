@@ -11,7 +11,7 @@ const Home = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-7">
-              <h1 className="display-3 fw-bold mb-4">
+              <h1 className="display-4 fw-bold mb-4">
                 Empowering the Future of <br /> <span className="gradient-text">Research Collaboration</span>
               </h1>
               <p className="lead text-muted mb-5 fs-4">
