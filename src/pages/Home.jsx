@@ -10,15 +10,15 @@ const Home = () => {
       <section className="hero-section">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-7">
+            <div className="col-12 text-center text-lg-start">
               <h1 className="display-4 fw-bold mb-4">
                 Empowering the Future of <br /> <span className="gradient-text">Research Collaboration</span>
               </h1>
-              <p className="lead text-muted mb-5 fs-4">
+              <p className="lead text-muted mb-5 fs-4" style={{ maxWidth: '900px' }}>
                 Connect with world-class professors, PhD scholars, and industry experts. 
                 Discover ethical research opportunities and technical partnerships to accelerate your academic impact.
               </p>
-              <div className="d-flex flex-wrap gap-3">
+              <div className="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start">
                 <Link to="/opportunities" className="btn btn-primary btn-lg shadow">
                   Explore Opportunities <FaArrowRight className="ms-2" />
                 </Link>
@@ -26,7 +26,7 @@ const Home = () => {
                   Hire a Consultant
                 </Link>
               </div>
-              <div className="mt-5 d-flex gap-4 align-items-center">
+              <div className="mt-5 d-flex gap-4 align-items-center justify-content-center justify-content-lg-start">
                 <div className="d-flex -space-x-2">
                   {[1, 2, 3, 4].map(i => (
                     <div key={i} className="avatar-circle border border-2 border-white bg-primary text-white d-flex align-items-center justify-content-center" style={{ width: '45px', height: '45px', borderRadius: '50%', marginLeft: i > 1 ? '-15px' : '0', zIndex: 5-i }}>
@@ -37,10 +37,6 @@ const Home = () => {
                 <p className="mb-0 text-muted small fw-medium">
                   Joined by <span className="text-primary fw-bold">12k+</span> researchers globally
                 </p>
-              </div>
-            </div>
-            <div className="col-lg-5 d-none d-lg-block">
-              <div className="position-relative">
               </div>
             </div>
           </div>
