@@ -41,18 +41,6 @@ const Home = () => {
             </div>
             <div className="col-lg-5 d-none d-lg-block">
               <div className="position-relative">
-                <div className="card glass p-4 border-0 shadow-lg floating-anim">
-                  <div className="d-flex align-items-center gap-3 mb-3">
-                    <div className="bg-primary-subtle p-2 rounded">
-                      <FaRocket className="text-primary" />
-                    </div>
-                    <div>
-                      <h6 className="mb-0 fw-bold">New Collaboration</h6>
-                      <small className="text-muted">Applied Energy Journal</small>
-                    </div>
-                  </div>
-                  <p className="small text-muted mb-0">"Seeking AI expert for smart grid optimization..."</p>
-                </div>
               </div>
             </div>
           </div>
